@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142996184-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-142996184-1');
+  </script>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@mt_book10" /> /*②*/
+  <meta property="og:url" content="https://fizzee.github.io/535950" /> /*③*/
+  <meta property="og:title" content="Shoma Yamamoto Portfolio" /> /*④*/
+  <meta property="og:image" content="img/twittercard.png" /> /*⑥*/
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fullpage.min.css">
+  <link rel=”shortcut icon” href="img/favicon.png">
+  <title>Shoma Yamamoto Portfolio</title>
+<body>
+
+
+  <a href="index.html"><div><img src="img/SYP.svg" class="floating"></div></a>
+  <div id="fullpage">
+    <div class="section">
+      <div id="planet"> <img src="img/planet0.svg" class="img0"> <img src="img/SYPL.svg" class="sypl"> </div>
+      <div class="scroll_buttom" data-page="2"> <img src="img/SB.svg" class="SB"></div>
+    </div>
+    <!--/#section1-->
+
+
+    <div class="section">
+      <div id="white-background">
+        <div id="works_mom"><a href = "works.html"><img src="img/WORKS.svg" class="works"></a></div>
+      </div>
+    </div>
+    <!--/#section2-->
+
+    <div class="section">
+      <div id="white-background">
+        <div id="aboutme_mom"><a href = "aboutme.html"><img src="img/ABOUTME.svg" class="aboutme"></a></div>
+      </div>
+    </div>
+
+    <div class="section">
+
+<div id="contactme_mom"><a href = "https://tayori.com/form/c89b76659560358234ce7260791f5c3ed53e412e"><img src="img/contactme.svg" class="contactme"></a></div>
+
+    </div>
+
+
+  </div>
+  <!--/#pagepiling-->
+  <!-- js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/easings.min.js"></script>
+  <script src="js/scrolloverflow.min.js"></script>
+  <script src="js/fullpage.min.js"></script>
+  <script>
+    $(function(){
+      $('#fullpage').fullpage({
+
+      scrollingSpeed: 700, //スクロールのスピード
+      autoScrolling: true, //スクロールした際に自動で次の要素を表示
+      fitToSection: true, //要素を自動で画面に合わせて調整
+      fitToSectionDelay: 800, //自動で画面に合わせる際のスピード
+      scrollBar: false, //ブラウザのスクロールバーの表示
+      css3:false,
+
+    });
+    });
+
+    const $btn = $('.scroll_buttom');
+
+//ページ送りボタン
+    $btn.on('click',(e)=>{
+    e.preventDefault();
+    let movePage = $(e.currentTarget).data('page'); //data要素の番号を取り出す
+    $.fn.fullpage.moveTo(movePage); //Pageを動かすメソッドにより出した番号をつける
+  });
+  </script>
+</body>
+</html>

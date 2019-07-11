@@ -1,0 +1,115 @@
+html{
+  background-color: #F2FFFC !important;
+}
+
+body{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  
+  .mylogo{
+  width: 35%;
+  margin-top: 20%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+  
+      .name{
+    margin-top: 5%;
+    font-size: 15px;
+        font-weight: 1000;
+    color: #292b35;
+  }
+  
+  .description{
+    width: 70%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+  
+  .s-title{
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: -5%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5d759b+0,7db9e8+99,7db9e8+99,92b7f3+99,7db9e8+100 */
+  color: #5d759b; /* Old browsers */
+  color: -moz-linear-gradient(-45deg, #5d759b 0%, #7db9e8 99%, #7db9e8 99%, #92b7f3 99%, #7db9e8 100%); /* FF3.6-15 */
+  color: -webkit-linear-gradient(-45deg, #5d759b 0%,#7db9e8 99%,#7db9e8 99%,#92b7f3 99%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  color: linear-gradient(135deg, #5d759b 0%,#7db9e8 99%,#7db9e8 99%,#92b7f3 99%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+  
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  
+  .mylogo{
+  width: 30%;
+  margin-top: 20%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+    .name{
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 1000;
+    color: #292b35;
+  }
+  
+    .description{
+    width: 60%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+  
+  .s-title{
+  font-size: 20px;
+  margin-top: 10%;
+  margin-bottom: -5%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5d759b+0,7db9e8+99,7db9e8+99,92b7f3+99,7db9e8+100 */
+  color: #5d759b; /* Old browsers */
+  color: -moz-linear-gradient(-45deg, #5d759b 0%, #7db9e8 99%, #7db9e8 99%, #92b7f3 99%, #7db9e8 100%); /* FF3.6-15 */
+  color: -webkit-linear-gradient(-45deg, #5d759b 0%,#7db9e8 99%,#7db9e8 99%,#92b7f3 99%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  color: linear-gradient(135deg, #5d759b 0%,#7db9e8 99%,#7db9e8 99%,#92b7f3 99%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+  
+}
+
+@media screen and (min-width: 1025px) {
+
+  .mylogo{
+  width: 15%;
+  margin-top: 10%;
+  border-radius: 50%;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+  
+  .name{
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: 1000;
+    color: #292b35;
+  }
+  
+    .description{
+    width: 30%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+  
+  .s-title{
+  font-size: 20px;
+  margin-top: 5%;
+  margin-bottom: 0%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5d759b+0,7db9e8+99,7db9e8+99,92b7f3+99,7db9e8+100 */
+  color: #5d759b; /* Old browsers */
+  color: -moz-linear-gradient(-45deg, #5d759b 0%, #7db9e8 99%, #7db9e8 99%, #92b7f3 99%, #7db9e8 100%); /* FF3.6-15 */
+  color: -webkit-linear-gradient(-45deg, #5d759b 0%,#7db9e8 99%,#7db9e8 99%,#92b7f3 99%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  color: linear-gradient(135deg, #5d759b 0%,#7db9e8 99%,#7db9e8 99%,#92b7f3 99%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+  
+}

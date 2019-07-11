@@ -1,0 +1,221 @@
+:root {
+  --txt-shdw: 0px 2px 1.5px #292b35;
+}
+
+/*============================================*/
+
+html {
+  background-color: #292b35;
+  font-family: 'Comfortaa', cursive;
+  /*Google Fonts*/
+}
+
+body {
+  margin: 0;
+}
+
+body:before{
+  content:"";
+  display:block;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100%;
+  height:100vh;
+  background-image: url("../img/backi.svg") !important;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.icons {
+  color: black;
+}
+
+.type {
+  font-size: 10px;
+}
+
+#planet {
+  position: relative;
+  text-align: center;
+}
+
+.floating {
+  z-index: 100;
+  filter: drop-shadow( 0px 0px 4px #292b35);
+}
+
+#white-background {
+  background-color: white;
+  height: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .floating {
+    width: 80px;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    z-index: 100;
+  }
+  .img0 {
+    position: relative;
+    width: 85%;
+    margin-top: -70%;
+    margin-left: -20%;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .sypl {
+    position: relative;
+    width: 50%;
+    margin-top: 15%;
+    z-index: 2;
+    filter: drop-shadow( 0px 5px 5px #292b35);
+  }
+  #skills {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    background-color: #292b35;
+  }
+  .skills {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+  }
+  .scroll_buttom {
+    position: relative;
+    text-align: center;
+    top: 8%;
+  }
+  .SB {
+    width: 50%;
+  }
+
+  .works , .aboutme , .contactme{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: 80%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .floating {
+    width: 70px;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    z-index: 100;
+  }
+  .img0 {
+    position: relative;
+    width: 65%;
+    margin-top: -50%;
+    z-index: 1;
+  }
+  .sypl {
+    position: relative;
+    width: 35%;
+    margin-top: 10%;
+    z-index: 2;
+    filter: drop-shadow( 0px 5px 5px #292b35);
+  }
+  #skills {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    background-color: #292b35;
+  }
+  .skills {
+    position: relative;
+    margin-top: 10%;
+    width: 60%;
+    margin-bottom: 10%;
+  }
+  .scroll_buttom {
+    position: relative;
+    text-align: center;
+    top: 8%;
+  }
+  .SB {
+    width: 35%;
+  }
+
+  .works , .aboutme , .contactme{
+  width: 70%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .floating {
+    width: 90px;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    z-index: 100;
+  }
+  .img0 {
+    position: relative;
+    display: inline-block;
+    margin-top: -40%;
+    width: 55%;
+    z-index: 1;
+  }
+  .sypl {
+    position: relative;
+    width: 20%;
+    margin-top: 10%;
+    z-index: 2;
+    filter: drop-shadow( 0px 5px 5px #292b35);
+  }
+  #skills {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    background-color: #292b35;
+  }
+  .skills {
+    position: relative;
+    margin-top: 3%;
+    width: 30%;
+    margin-bottom: 10%;
+  }
+  .scroll_buttom {
+    position: relative;
+    text-align: center;
+    top: 8%;
+  }
+  .SB {
+    width: 15%;
+  }
+
+  .works , .aboutme ,  .contactme{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  width: 35%;
+  }
+}
